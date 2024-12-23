@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained multi-linear regression model
-model = joblib.load('multi_linear_regression_model.pkl')
+model = joblib.load('multi_linear_regression.pkl')
 
 # Title of the Streamlit app
 st.title("Salary Prediction App")
